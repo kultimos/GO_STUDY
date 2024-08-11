@@ -35,3 +35,7 @@
     - slice = append(slice, 162), 在一个数组末尾添加元素
     - s1 := slice[2:4], 截取slice索引2,3这一段数据给s1,但需要注意,此时s1和slice指向相同的内存地址,对二者任意一个的修改都会影响到对象
     - copy(s1, slice), 将slice的数据拷贝给s1,深拷贝,此后两个数组将毫无关联
+
+  ## map的用法
+  [](/study/map/methodMap.go)
+  [](/study/map/testMap.go)
