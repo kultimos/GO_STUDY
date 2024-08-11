@@ -21,3 +21,8 @@
 
   ## GoLang中的指针
   [](/study/point/testPoint.go)
+  
+  ## defer关键字的使用
+  - defer的执行是在当前function执行完毕后才会调用
+  - 多个defer之间的执行顺序等同于入栈的顺序,先声明的后执行,后声明的先执行
+  [](/study/defer/testDefer.go)
