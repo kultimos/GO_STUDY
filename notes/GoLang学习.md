@@ -12,3 +12,12 @@
 
   ## 函数多返回值的写法
   [](/study/return/testReturn.go)
+  
+  ## 几种导包方式
+  - _ package,匿名导包,会在当前main方法调用时,调用导入包的init方法
+  - name package,别名导包,可以通过别名.method()进行方法的调用
+  - . package,该方式可以直接调用其method(),可读性不好,不建议
+  - [](/study/import_init/init_package)
+
+  ## GoLang中的指针
+  [](/study/point/testPoint.go)
